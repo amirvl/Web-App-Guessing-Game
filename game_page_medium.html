@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Game Page Medium</title>
+        <link rel="stylesheet" type="text/css" href="game_page_medium_css.css" title="style"/>
+        <style id="style"></style>
+        <script src="game_page_medium_js.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="parent">
+            <div class="container1" id="container1"></div>
+        </div>
+        
+        <button style="visibility: hidden;" class="randomize" id="randomize" onclick="randomize_order()">Randomize order</button>
+        <p style="visibility: hidden;" id="test"></p>
+
+        <button class="add_card" onclick="add_card()">Add Card</button>     
+
+        <div class="btn-group-black">
+            <button id="a1" onclick="make_guess(1)">Black Ace</button>
+            <button id="a2" onclick="make_guess(2)">Black 2</button>
+            <button id="a3" onclick="make_guess(3)">Black 3</button>
+            <button id="a4" onclick="make_guess(4)">Black 4</button>
+            <button id="a5" onclick="make_guess(5)">Black 5</button>
+            <button id="a6" onclick="make_guess(6)">Black 6</button>
+            <button id="a7" onclick="make_guess(7)">Black 7</button>
+            <button id="a8" onclick="make_guess(8)">Black 8</button>
+            <button id="a9" onclick="make_guess(9)">Black 9</button>
+            <button id="a10" onclick="make_guess(10)">Black 10</button>
+            <button id="a11" onclick="make_guess(11)">Black Jack</button>
+            <button id="a12" onclick="make_guess(12)">Black Queen</button>
+            <button id="a13" onclick="make_guess(13)">Black King</button>
+        </div>
+        <div class="btn-group-red">
+            <button id="a14" onclick="make_guess(14)">Red Ace</button>
+            <button id="a15" onclick="make_guess(15)">Red 2</button>
+            <button id="a16" onclick="make_guess(16)">Red 3</button>
+            <button id="a17" onclick="make_guess(17)">Red 4</button>
+            <button id="a18" onclick="make_guess(18)">Red 5</button>
+            <button id="a19" onclick="make_guess(19)">Red 6</button>
+            <button id="a20" onclick="make_guess(20)">Red 7</button>
+            <button id="a21" onclick="make_guess(21)">Red 8</button>
+            <button id="a22" onclick="make_guess(22)">Red 9</button>
+            <button id="a23" onclick="make_guess(23)">Red 10</button>
+            <button id="a24" onclick="make_guess(24)">Red Jack</button>
+            <button id="a25" onclick="make_guess(25)">Red Queen</button>
+            <button id="a26" onclick="make_guess(26)">Red King</button>
+        </div>
+        <div class="guesses" id="guesses"></div>
+        
+
+    </body>
+
+
+</html>

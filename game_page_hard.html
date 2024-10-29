@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Game Page Hard</title>
+        <link rel="stylesheet" type="text/css" href="game_page_hard_css.css" title="style"/>
+        <style id="style"></style>
+        <script src="game_page_hard_js.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+    </head>
+    <body>
+        <div id="parent">
+            <div class="container1" id="container1"></div>
+        </div>
+        
+        <button style="visibility: hidden;" class="randomize" id="randomize" onclick="randomize_order()">Randomize order</button>
+        <p style="visibility: hidden;" id="test"></p>
+
+        <button class="add_card" onclick="add_card()">Add Card</button>     
+
+        <div class="btn-group-black">
+            <button id="a1" onclick="make_guess(1)">Ace of spades</button>
+            <button id="a2" onclick="make_guess(2)">2 of spades</button>
+            <button id="a3" onclick="make_guess(3)">3 of spades</button>
+            <button id="a4" onclick="make_guess(4)">4 of spades</button>
+            <button id="a5" onclick="make_guess(5)">5 of spades</button>
+            <button id="a6" onclick="make_guess(6)">6 of spades</button>
+            <button id="a7" onclick="make_guess(7)">7 of spades</button>
+            <button id="a8" onclick="make_guess(8)">8 of spades</button>
+            <button id="a9" onclick="make_guess(9)">9 of spades</button>
+            <button id="a10" onclick="make_guess(10)">10 of spades</button>
+            <button id="a11" onclick="make_guess(11)">Jack of spades</button>
+            <button id="a12" onclick="make_guess(12)">Queen of spades</button>
+            <button id="a13" onclick="make_guess(13)">King of spades</button>
+        </div>
+        <div class="btn-group-red">
+            <button id="a14" onclick="make_guess(14)">Ace of Hearts</button>
+            <button id="a15" onclick="make_guess(15)">2 of Hearts</button>
+            <button id="a16" onclick="make_guess(16)">3 of Hearts</button>
+            <button id="a17" onclick="make_guess(17)">4 of Hearts</button>
+            <button id="a18" onclick="make_guess(18)">5 of Hearts</button>
+            <button id="a19" onclick="make_guess(19)">6 of Hearts</button>
+            <button id="a20" onclick="make_guess(20)">7 of Hearts</button>
+            <button id="a21" onclick="make_guess(21)">8 of Hearts</button>
+            <button id="a22" onclick="make_guess(22)">9 of Hearts</button>
+            <button id="a23" onclick="make_guess(23)">10 of Hearts</button>
+            <button id="a24" onclick="make_guess(24)">Jack of Hearts</button>
+            <button id="a25" onclick="make_guess(25)">Queen of Hearts</button>
+            <button id="a26" onclick="make_guess(26)">King of Hearts</button>
+        </div>
+        <div class="btn-group-black">
+            <button id="a27" onclick="make_guess(27)">Ace of Clubs</button>
+            <button id="a28" onclick="make_guess(28)">2 of <br>Clubs</button>
+            <button id="a29" onclick="make_guess(29)">3 of <br>Clubs</button>
+            <button id="a30" onclick="make_guess(30)">4 of <br>Clubs</button>
+            <button id="a31" onclick="make_guess(31)">5 of <br>Clubs</button>
+            <button id="a32" onclick="make_guess(32)">6 of <br>Clubs</button>
+            <button id="a33" onclick="make_guess(33)">7 of <br>Clubs</button>
+            <button id="a34" onclick="make_guess(34)">8 of <br>Clubs</button>
+            <button id="a35" onclick="make_guess(35)">9 of <br>Clubs</button>
+            <button id="a36" onclick="make_guess(36)">10 of Clubs</button>
+            <button id="a37" onclick="make_guess(37)">Jack of Clubs</button>
+            <button id="a38" onclick="make_guess(38)">Queen of Clubs</button>
+            <button id="a39" onclick="make_guess(39)">King of Clubs</button>
+        </div>
+        <div class="btn-group-red">
+            <button id="a40" onclick="make_guess(40)">Ace of Diamonds</button>
+            <button id="a41" onclick="make_guess(41)">2 of Diamonds</button>
+            <button id="a42" onclick="make_guess(42)">3 of Diamonds</button>
+            <button id="a43" onclick="make_guess(43)">4 of Diamonds</button>
+            <button id="a44" onclick="make_guess(44)">5 of Diamonds</button>
+            <button id="a45" onclick="make_guess(45)">6 of Diamonds</button>
+            <button id="a46" onclick="make_guess(46)">7 of Diamonds</button>
+            <button id="a47" onclick="make_guess(47)">8 of Diamonds</button>
+            <button id="a48" onclick="make_guess(48)">9 of Diamonds</button>
+            <button id="a49" onclick="make_guess(49)">10 of Diamonds</button>
+            <button id="a50" onclick="make_guess(50)">Jack of Diamonds</button>
+            <button id="a51" onclick="make_guess(51)">Queen of Diamonds</button>
+            <button id="a52" onclick="make_guess(52)">King of Diamonds</button>
+        </div>
+        <div class="guesses" id="guesses"></div>
+        
+
+    </body>
+
+
+</html>

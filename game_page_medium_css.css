@@ -1,0 +1,106 @@
+* {
+    background-color: lightpink;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7{
+    /*Div that contains card divs*/
+    margin: 1px;
+    padding: 1px;
+    /*border: 5px solid blue;*/
+    height: 150px;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.guesses{
+    /*Div that contains card divs*/
+     margin: 1px;
+    padding: 1px;
+    /*border: 5px solid blue;*/
+    height: 150px;
+    width: 90%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.guessed_card{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 70;
+    width: 53;
+}
+
+.card{
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    height: 140px;
+    width: 106px;
+}
+
+.add_card{
+    /*Button, fixed in bottom center of page*/
+    height: 10%;
+    width: 10%;
+    background-color: cyan;
+    position: fixed;
+    bottom: 10;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#variable, #answer{
+    /*This is just to store a counter to check how many cards in each 'container', hidden from view*/
+    display: none;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.btn-group-black button {
+    background-color: #2F4F4F; /* Green background */
+    border: 1px solid black; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    width: 7.5%;
+    height: 10%;
+    bottom: 20%;
+  }
+   
+  /* Add a background color on hover */
+  .btn-group-black button:hover {
+    background-color: black;
+  }
+
+  .btn-group-red button {
+    background-color: #DC143C; /* Red background */
+    border: 1px solid maroon; /* Red border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    width: 7.5%;
+    bottom: 20%;
+    height: 10%;
+  }
+   
+  /* Add a background color on hover */
+  .btn-group-red button:hover {
+    background-color: maroon;
+  }
+

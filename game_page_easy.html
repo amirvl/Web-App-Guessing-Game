@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Game Page Easy</title>
+        <link rel="stylesheet" type="text/css" href="game_page_easy_css.css" title="style"/>
+        <style id="style"></style>
+        <script src="game_page_easy_js.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="parent">
+            <div class="container1" id="container1"></div>
+        </div>
+        
+        <button style="visibility: hidden;" class="randomize" id="randomize" onclick="randomize_order()">Randomize order</button>
+        <p style="visibility: hidden;" id="test"></p>
+
+        <button class="add_card" onclick="add_card()">Add Card</button>     
+
+        <div class="btn-group-black">
+            <button id="a1" onclick="make_guess(1)">Ace</button>
+            <button id="a2" onclick="make_guess(2)">2</button>
+            <button id="a3" onclick="make_guess(3)">3</button>
+            <button id="a4" onclick="make_guess(4)">4</button>
+            <button id="a5" onclick="make_guess(5)">5</button>
+            <button id="a6" onclick="make_guess(6)">6</button>
+            <button id="a7" onclick="make_guess(7)">7</button>
+            <button id="a8" onclick="make_guess(8)">8</button>
+            <button id="a9" onclick="make_guess(9)">9</button>
+            <button id="a10" onclick="make_guess(10)">10</button>
+            <button id="a11" onclick="make_guess(11)">Jack</button>
+            <button id="a12" onclick="make_guess(12)">Queen</button>
+            <button id="a13" onclick="make_guess(13)">King</button>
+        </div>
+        <div class="guesses" id="guesses"></div>
+        
+
+    </body>
+
+
+</html>
